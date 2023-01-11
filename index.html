@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+    <html lang="fr">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+                <title>Booki</title>                      
+        </head>
+            <body>
+                <nav>
+                    <div id="logo">
+                        <a href="index.html">
+                            <img src="image_booki/booki_logo.png" alt="logo Booki">
+                        </a>
+                    </div>
+                    <div id="liens">
+                    <a href="#hebergement">Hébergement</a>
+                    <a href="#activite">Activités</a>                   
+                    </div>
+                </nav>
+                <header>
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                        <p>En plein centre-ville ou en pleine nature</p>
+                        <div id="barre-recherche">
+                            <form method="post" action="traitement.php">
+                                <p>
+                                    <label for="Recherche"><i class="fa-solid fa-location-dot"></i>
+                                    </label>
+                                    <input type="text" name="Recherche" id="Recherche" placeholder="Marseille, France"rows="1" cols="2"size="30">
+                                </p>
+                                <button>Rechercher</button>     
+                            </form>
+                        </div>
+                        <div id="filtre">
+                            <h2>Filtres</h2>
+                                <div id="eco">
+                                    <img src="image_booki/billet.png"alt="logo eco">
+                                    <p>Économique</p>
+                                </div>
+                                <div id="famille">
+                                    <img src="image_booki/bonhomme.png"alt="logo famille">
+                                    <p>Familial</p>
+                                </div>
+                                <div id="romantique">
+                                    <img src="image_booki/coeur.png"alt="logo coeur">
+                                    <p>Romantique</p>
+                                </div>
+                                <div id="animaux">
+                                    <img src="image_booki/chien.png"alt="logo chien">
+                                    <p>Animaux autorisés</p>
+                                </div>                       
+                        </div>
+                        <div id="pub">
+                            <img src="image_booki/info.png"alt="logo info">
+                            <p>Plus de 500 logements sont disponible dans cette ville</p>
+                        </div>
+                </header>
+                <main>
+                    <section id="hebergement">
+                        <h1>Hébergement à Marseille</h1>
+                            <div class="cardh">
+                                <img src="image_booki/hebegement/img_h_1.jpg"alt="Photo de l'Auberge de La Canebière">
+                                <div class="cont-h">
+                                    <h3>Auberge La Canebière</h3>
+                                        <p>Nuit à partir de 25€</p>
+                                        <img class="etoile" src="image_booki/etoile.png"alt="Logo étoile">
+                                </div>
+                            </div>
+                            <div class="cardh">
+                                <img src="image_booki/hebegement/img_h_2.jpg"alt="Photo de l'Hotêl du port">
+                                <div class="cont-h">
+                                    <h3>Hotêl du port</h3>
+                                        <p>Nuit à partir de 57€</p>
+                                        <img class="etoile" src="image_booki/etoile.png"alt="Logo étoile">
+                                </div>
+                            </div>
+                            <div class="cardh">
+                                <img src="image_booki/hebegement/img_h_3.jpg" alt="Photo de l'Hotêl Les mouettes">
+                                <div class="cont-h">
+                                    <h3>Hotêl Les mouettes</h3>
+                                        <p>Nuit à partir de 76€</p>
+                                        <img class="etoile" src="image_booki/etoile.png"alt="Logo étoile">
+                                </div>
+                            </div>
+                            <div class="cardh">
+                                <img src="image_booki/hebegement/img_h_4.jpg"alt="Photo de l'Hotêl de la mer">
+                                <div class="cont-h">
+                                    <h3>Hotêl de la mer</h3>
+                                        <p>Nuit à partir de 46€</p>
+                                        <img class="etoile" src="image_booki/etoile.png"alt="Logo étoile">
+                                </div>
+                            </div>    
+                            <div class="cardh">
+                                <img src="image_booki/hebegement/img_h_5.jpg"alt="Photo de l'Auber Le Panier">
+                                <div class="cont-h">
+                                    <h3>Auberge Le Panier</h3>                       
+                                        <p>Nuit à partir de 23€</p>
+                                        <img class="etoile" src="image_booki/etoile.png"alt="Logo étoile">
+                                </div>
+                            </div>
+                            <div class="cardh">
+                                <img src="image_booki/hebegement/img_h_6.jpg"alt="Photo de l'Hotêl Chez Amina">
+                                <div class="cont-h">
+                                    <h3>Hotêl Chez Amina</h3>
+                                        <p>Nuit à partir de 96€</p>
+                                        <img class="etoile" src="image_booki/etoile.png"alt="Logo étoile">
+                                </div>
+                            </div>
+                        <h2>Afficher plus</h2> 
+                    </section>
+                    <section id="populaire">
+                        <div id="titre">
+                            <h1>Les plus populaires</h1>
+                            <img src="image_booki/stat.png"alt="Icone">
+                        </div>
+                        <div class="card-p">
+                            <img src="image_booki/populaire/img_p_1.jpg"alt="Photo de l'Hotêl Le soleil du matin">
+                            <div class="cont-p">
+                                <h3>Hotêl Le soleil du matin</h3>
+                                    <p>Nuit à partir de 128€</p>
+                                    <img class="etoile" src="image_booki/etoile.png"alt="Logo étoile">
+                            </div>
+                        </div>
+                        <div class="card-p">
+                            <img src="image_booki/populaire/img_p_2.jpg"alt="Photo de Chambres d'hôtes Au coeur de l'eau">
+                            <div class="cont-p">
+                                <h3>Chambres d'hôtes Au coeur de l'eau</h3>
+                                    <p>Nuit à partir de 71€</p>
+                                    <img class="etoile" src="image_booki/etoile.png"alt="Logo étoile">
+                            </div>
+                        </div>
+                        <div class="card-p">
+                            <img src="image_booki/populaire/img_p_3.jpg" alt="Photo de l'Hôtel Bleu et Blanc">
+                            <div class="cont-p">
+                                <h3>Hôtel Bleu et Blanc</h3>
+                                    <p>Nuit à partir de 68€</p>
+                                    <img class="etoile" src="image_booki/etoile.png"alt="Logo étoile">
+                            </div>
+                        </div>
+                    </section>
+                    <section id="activite">
+                        <h1>Activités à Marseille</h1>
+                        <div id="card10">
+                            <img src="image_booki/activities/img_a_1.jpg"alt="Photo du Vieux-Port">
+                            <h3>Vieux-Port</h3>
+                        </div>
+                        <div id="card11">
+                            <img src="image_booki/activities/img_a_2.jpg"alt="Photo du Fort de Pomègues">
+                            <h3>Fort de Pomègues</h3>
+                        </div>
+                        <div id="card12">
+                            <img src="image_booki/activities/img_a_3.jpg"alt="Photo des Calanques">
+                            <h3>Parc national des Calanques</h3>
+                        </div>
+                        <div id="card13">
+                            <img src="image_booki/activities/img_a_4.jpg"alt="Photo de Notre-Dame-de-la-Garde">
+                            <h3>Notre-Dame-de-la-Garde</h3>
+                        </div>
+                    </section>
+                </main>
+                <footer>
+                    <div class="contact">
+                        <h2>À propos</h2>
+                            <ul>
+                                <li><a href="">Fonctionnement du site</a></li>
+                                <li><a href="">Conditions générale</a></li>
+                                <li><a href="">Donées et confidentialité</a></li>
+                            </ul>
+                    </div>
+                    <div class="contact">
+                        <h2>Nos hébergements</h2>
+                            <ul>
+                                <li><a href="">Charte qualité</a></li>
+                                <li><a href="">Proposez votre hotêl</a></li>
+                            </ul>
+                    </div>
+                    <div class="contact">
+                        <h2>Assistance</h2>
+                            <ul>
+                                <li><a href="">Centre d'aide</a></li>
+                                <li><a href="">Nous contacter</a></li>
+                            </ul>
+                    </div>
+                </footer>
+        </body>
+    </html>    

@@ -1,0 +1,265 @@
+@font-face {
+    font-family:"Raleway" ;
+    src: url("Raleway-Medium.ttf");
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    max-height: 1884px;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 1.375em;
+}
+h2{
+    font-size: 1.125em;
+}
+h3{
+    font-size: 1em;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 1.5rem 0 ;             
+}
+nav img{
+    width: 3.818em;
+    height: 19px;
+}
+#liens a{
+    padding: 20px;
+}
+#liens a:hover{
+    color:#0065FC;
+    border-top: 3px solid #0065FC;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#barre-recherche{
+    display: flex;
+    width: 40%;
+}
+form{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+form p{
+    width: 50%;
+}
+input{
+    width: 100%;
+    height: 49px;
+    border:1px solid #D9D9D9;
+    border-radius: none;
+    font-size: 1.125em;
+    text-align: center;
+}
+input::placeholder{
+    font-weight: bold;
+    color: black;
+}
+button{
+   width: 25%;
+   height: 49px;
+   font-size: 1.125em;
+   font-weight: bold;
+   color: white;
+   background-color: #0065FC;
+   border: 1px solid #0065FC;
+   border-radius: 0 15px 15px 0;
+}
+#filtre{
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+    margin: 1.5em 0 2em;
+    align-items: center;
+}
+#filtre img{
+    width: 22px;
+    height: 22px;
+}
+#filtre div{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 50px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    align-items: center;
+    padding: 1em 1.5em;
+}
+#filtre p{
+    font-weight: bold;
+    margin-left: 10px;
+}
+#pub{
+    display: flex;
+    align-items: center;
+}
+#pub img{
+    width: 24px;
+    height: 24px;
+    border:2px solid #D9D9D9;
+    border-radius: 100%;
+    padding: 5px;
+    margin-right: 11px;
+}
+main{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 2%;
+}
+#hebergement {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 65%;
+    height: 626px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding:1em 3em;
+
+}
+#hebergement h1{
+    width: 100% ;
+}
+.cardh{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 199px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px;
+    box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.cont-h{
+    display: flex;
+    flex-direction: column;
+    height: 199px;
+    line-height: 0px;
+    padding-left: 10px;
+}
+#hebergement p{
+    font-size: 0.875em;
+}
+#hebergement h2{
+    width: 100% ;
+}
+#populaire{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 32%;
+    height: 625px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    margin-left: 3%;
+    padding: 0 3em 3em;
+}
+#titre{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 0.5em;
+}
+#titre img{
+    height: 15.75px;
+    width: 18px;
+}
+.card-p{
+    display: flex;
+    width: 100%;
+    height: 144px;
+    border-radius: 20px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.cont-p{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.938em;
+}
+#populaire p{
+    margin:0 0 3em;
+}
+#activite{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#activite h1{
+    width: 100%;
+}
+#activite div{
+    width: 22%;
+    border-radius:20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;   
+}
+#activite h3{
+    padding-left: 20px;
+}
+footer{
+    display: flex;
+    height: 225px;
+    width: 100%;
+    background-color: #F2F2F2;
+    margin: 3.813em auto 0 auto;
+}
+.contact
+{
+    margin-top:3%;
+    margin-left: 2%;
+    width: 30%;
+}
+.contact h2{
+    margin-left: 2.15em;
+}
+li{
+    list-style-type: none;
+    font-size: medium;
+    margin-bottom: 0.75em;
+}
+img[src*="hebegement"] {
+    width: 100%;
+    height: 124px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.etoile{
+    height: 1em;
+    width: auto;  
+}
+.card-p img:not(.etoile){
+    width: 40%;
+    height: 144px;
+    border: 5px solid white;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+}
+#activite img{
+    width: 100%;
+    height: 389px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
