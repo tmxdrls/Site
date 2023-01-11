@@ -100,10 +100,6 @@ button{
     margin: 1.5em 0 2em;
     align-items: center;
 }
-#filtre img{
-    width: 22px;
-    height: 22px;
-}
 #filtre div{
     display: flex;
     justify-content: center;
