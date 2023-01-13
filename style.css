@@ -31,7 +31,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    margin: 3em 0 ;             
+    margin: 2em 0 3em;             
 }
 nav img{
     width: 3.818em;
@@ -42,7 +42,7 @@ nav img{
 }
 #liens a:hover{
     color:#0065FC;
-    border-top: 3px solid #0065FC;
+    border-top: 2px solid #0065FC;
 }
 header{
     display: flex;
@@ -102,7 +102,7 @@ button{
 #filtre{
     display: flex;
     justify-content: space-between;
-    width:70%;
+    width:65%;
     margin: 15px 0 25px;
     align-items: center;
 }
@@ -206,6 +206,7 @@ main{
 }
 .cont-p{
     display: flex;
+    width: 50%;
     flex-direction: column;
     flex-wrap: wrap;
     margin-left: 1em;
@@ -265,7 +266,7 @@ img{
     border-radius: 20px 20px 0 0;  
 }
 #populaire img{
-    width: 40%;
+    width:35%;
     height: 144px;
     border: 5px solid white;
     border-radius: 20px 0 0 20px;
