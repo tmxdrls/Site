@@ -154,7 +154,7 @@ main{
     width: 100% ;
     align-self:flex-end;
 }
-.cardh {
+.cardh{
     display: flex;
     flex-wrap: wrap;
     width: 31%;
