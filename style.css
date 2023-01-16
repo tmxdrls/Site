@@ -102,7 +102,7 @@ button{
 #filtre{
     display: flex;
     justify-content: space-between;
-    width:65%;
+    width:70%;
     margin: 15px 0 25px;
     align-items: center;
 }
@@ -144,7 +144,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 65%;
+    width: 64%;
     height: 626px;
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -156,8 +156,8 @@ main{
 }
 .cardh{
     display: flex;
-    flex-direction: column;
-    width: 30%;
+    flex-wrap: wrap;
+    width: 31%;
     height: 199px;
     border-radius: 20px;
     background-color: white;
@@ -165,23 +165,26 @@ main{
     box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 .cont-h{
-    line-height: 50%;
-    padding-left: 10px;
+    width: 100%;
+    padding: 5px 10px 16px;
 }
 #hebergement h3{
-    margin: 10px 0;
+    margin:0;
 }
 #hebergement p{
     font-size: 0.875em;
+    margin:3px 0;
+}
+#hebergement .etoile{
+
 }
 #hebergement h2{
     width: 100% ;
 }
 #populaire{
+    width: 32%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    width: 32%;
     height: 625px;
     border-radius: 20px;
     background-color: #F2F2F2;
@@ -189,34 +192,43 @@ main{
     padding: 0 3em 1.5em;
 }
 #titre{
+    width: 100%;
     display: flex;
     align-items: center;
     align-self: flex-end;
-    width: 100%;
     justify-content: space-between;
    
 }
 .card-p{
-    display: flex;
     width: 100%;
+    display: flex;
     height: 144px;
     border-radius: 20px;
     background-color: white;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 .cont-p{
-    display: flex;
     width: 50%;
-    flex-direction: column;
+    display: flex;
     flex-wrap: wrap;
     margin-left: 1em;
 }
-#populaire p{
-    margin:0 0 40px;
+/*Alignement des lignes de "cont-p"*/
+.cont-p h3{
+    margin-bottom: 0;
 }
-#populaire h3{
-    margin-bottom: 4px;
+.cont-p p{
+    margin-top: 0;
+    font-size: 0.875em;
 }
+.card-p:last-of-type p {
+    padding-bottom: 20px;
+}
+.cont-p .etoile{
+   align-self: flex-end;
+   margin-bottom: 10px;   
+}
+/**/
 #activite{
     display: flex;
     justify-content: space-between;
@@ -279,4 +291,57 @@ img{
 }
 .etoile i:last-child{
     color: #F2F2F2;
+}
+@media all and (max-width: 1024px){
+form{
+    width: 43%;
+}
+#filtre{
+    width: 90%;
+}
+#pub{
+    width: 60%;
+}
+#hebergement {
+    width: 100%;
+}
+#populaire{
+width: 100%;
+height: 278px;
+justify-content: space-between;
+margin: 3em 0;
+padding: 0 3em 2.5em;
+}
+.card-p{
+    width:30%;
+    height: 144px;
+}
+#activite
+{
+    margin:0;
+}
+#activite div{
+    display:flex;
+    flex-wrap: wrap;
+    width: 21%;
+    height:267px;
+}
+#activite h3{
+    width:75%;
+}
+#activite div:last-child h3{
+    width:60%;
+}
+footer{
+    height: 225px;
+}
+#hebergement img{
+    height: 124px;
+}
+#popuplaire img{
+    width: 40%;
+}
+#activite img{
+    height: 211px;
+}
 }
