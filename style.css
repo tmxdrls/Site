@@ -149,6 +149,9 @@ main{
     border-radius: 20px;
     padding:0 2.5em 0.5em;
 }
+main a{
+    width: 100%;
+}
 #hebergement h1{
     width: 100% ;
     align-self:flex-end;
@@ -165,7 +168,7 @@ main{
 }
 .cont-h{
     width: 100%;
-    padding: 5px 10px 16px;
+    padding: 4px 10px 16px;
 }
 #hebergement h3{
     margin:0;
@@ -208,6 +211,10 @@ main{
     flex-wrap: wrap;
     margin-left: 1em;
 }
+#populaire a{ 
+    display: flex;
+    flex-wrap: wrap;
+}
 /*Alignement des lignes de "cont-p"*/
 .cont-p h3{
     margin: 0;
@@ -224,7 +231,6 @@ main{
    align-self: flex-end;
    margin-bottom: 10px;   
 }
-/**/
 #activite{
     display: flex;
     flex-wrap: wrap;
@@ -287,7 +293,11 @@ img{
 .etoile i:last-child{
     color: #F2F2F2;
 }
-@media all and (max-width: 1024px){
+/*Partie Survol*/
+div[class*="card"]:hover{
+     box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+@media all and (max-width: 992px){
 form{
     width: 43%;
 }
