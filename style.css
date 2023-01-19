@@ -391,7 +391,7 @@ div[class*="card"]:hover {
         width: 100%;
         height: 278px;
         justify-content: space-between;
-        margin: 53px 0 70px;
+        margin: 53px auto 70px;
         padding: 0 2em 2.5em;
     }
 
@@ -480,15 +480,18 @@ div[class*="card"]:hover {
     }
 
     header h1 {
-        width: 80%;
+        width:90%;
+        padding-left: 20px;
     }
 
     h1+p {
         margin-bottom: 20px;
+        padding-left: 20px;
     }
 
     form {
-        width: 100%;
+        width:92%;
+        align-self: center;
     }
 
     form p {
@@ -535,6 +538,7 @@ div[class*="card"]:hover {
     #filtre h2 {
         width: 100%;
         margin-bottom: 0;
+        padding-left: 20px;
     }
 
     #filtre div {
@@ -548,6 +552,7 @@ div[class*="card"]:hover {
 
     #pub {
         align-items: baseline;
+        padding-left: 10px;
     }
 
     #pub p {
@@ -560,10 +565,9 @@ div[class*="card"]:hover {
         justify-content: space-around;
         align-items: center;
         height: 580px;
-        margin: 0;
-        padding: 0;
+        margin: 0 auto;
         border-radius: 0;
-        padding-bottom: 47px;
+        padding:0 20px 47px;
     }
 
     .card-p {
@@ -573,14 +577,19 @@ div[class*="card"]:hover {
 
     #hebergement {
         background-color: white;
+        justify-content: center;
         height: auto;
-        padding: 0;
+        padding:0;
+    }
+
+    #hebergement h1{
+        padding-left: 20px;
+        margin-top: 26px;
     }
 
     .card-h {
-        width: 100%;
+        width: 90%;
         height: 199px;
-        justify-content:flex-start;
         margin-bottom: 12px;
         box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
     }
@@ -594,12 +603,22 @@ div[class*="card"]:hover {
     }
 
     #activite {
-        margin: 70px 0;
+        margin: 70px auto;
+        padding:0 20px;
     }
 
+    #activite h1{
+        width: 50%;
+        margin:2px 0;
+    }
     .card-a {
         width: 100%;
+        height: 190px;
         margin-bottom: 24px;
+    }
+
+    #activite img{
+        height:134px;
     }
 
     footer {
