@@ -33,13 +33,16 @@ i{
 .etoile i:last-child{
     color: #F2F2F2;
 }
+#mobile{
+    display: none;
+}
 nav{
     display: flex;
     justify-content: space-between; 
     margin: 2em 0 3em;             
 }
 nav img{
-    width: 3.818em;
+    width: 100%;
     height: 19px;
 }
 #liens a{
@@ -404,9 +407,18 @@ form p{
     width: 86%;
 }
 button{
-    color:#0065FC;
-    width:14%;
-    font-size: 0px;
+   display: none;
+}
+#mobile{
+    display: block;
+    width: 14%;
+    height: 49px;
+    background-color: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0 15px 15px 0;
+}
+#mobile i{
+    color: white;
 }
 label{
     width:16%;
@@ -414,6 +426,9 @@ label{
 input{
     width: 84%;
     text-align: left;
+}
+input::placeholder{
+    padding-left: 16px;
 }
 #filtre{
     width: 100%;
