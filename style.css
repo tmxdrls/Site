@@ -106,7 +106,7 @@ input {
 
 input::placeholder {
     font-weight: bold;
-    color: black;
+    color:black;
 }
 
 button {
@@ -529,9 +529,6 @@ div[class*="card"]:hover {
     input {
         width: 84%;
         text-align: left;
-    }
-
-    input::placeholder {
         padding-left: 16px;
     }
 
