@@ -6,8 +6,8 @@
 }
 
 body {
-    max-height: 1884px;
     max-width: 1400px;
+    height: auto;
     display: flex;
     flex-direction: column;
     margin: auto;
