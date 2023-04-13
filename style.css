@@ -7,10 +7,11 @@
 
 body {
     max-width: 1400px;
-    height: auto;
     display: flex;
     flex-direction: column;
     margin: auto;
+    padding: 0 25px;
+
 }
 
 a {
@@ -53,9 +54,9 @@ nav img {
 }
 
 #liens a {
-    padding: 30px;
+    padding: 30px 10px;
+    margin-left: 57px;
 }
-
 header {
     display: flex;
     flex-direction: column;
@@ -70,9 +71,10 @@ h1+p {
 }
 
 form {
-    width: 30%;
+    width: 32%;
     display: flex;
     align-items: center;
+    margin: 0;
 }
 
 form p {
@@ -110,7 +112,7 @@ input::placeholder {
 }
 
 button {
-    width: 33%;
+    width: 35%;
     height: 49px;
     font-size: 1.125em;
     font-weight: bold;
@@ -179,14 +181,14 @@ main p {
 }
 
 #hebergement {
-    width: 64%;
+    width: 68%;
     height: 626px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 0 2.5em 0.5em;
+    padding: 0 2em 0.5em;
 }
 
 #hebergement h2:first-child {
@@ -212,7 +214,7 @@ main p {
 }
 
 .cont-h {
-    padding: 3px 10px 16px;
+    padding: 0 6px 16px 8px;
 }
 
 #hebergement h3 {
@@ -228,13 +230,13 @@ main p {
 }
 
 #populaire {
-    width: 32%;
+    width: 29%;
     height: 625px;
     display: flex;
     flex-wrap: wrap;
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 0 3em 1em;
+    padding: 0 2em 1em;
 }
 
 #titre {
@@ -275,11 +277,11 @@ main p {
 /*Alignement des lignes de "cont-p"*/
 .cont-p h3 {
     margin: 0;
-    padding-top: 16px;
+    padding-top: 10px;
 }
 
 .cont-p p {
-    margin-top: 0;
+    margin: 0 0 10px;
 }
 
 .card-p:last-child p {
@@ -364,7 +366,7 @@ div[class*="card"]:hover {
 /*Version Tablette*/
 @media all and (max-width: 992px) {
     body{
-        padding: 0 4em;
+        padding: 0 2em;
     }
     form {
         width: 50%;
@@ -385,6 +387,7 @@ div[class*="card"]:hover {
     #hebergement {
         width: 100%;
         height: 626px;
+        
     }
 
     #hebergement img {
@@ -409,7 +412,7 @@ div[class*="card"]:hover {
     }
 
     .card-p h3 {
-        padding-top: 12px;
+        padding-top: 8px;
     }
 
     /*(Changement de police pour h3-p)
@@ -453,7 +456,7 @@ div[class*="card"]:hover {
 }
 
 /*Version Mobile*/
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     body{
         padding: 0;
     }
